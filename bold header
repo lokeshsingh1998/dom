@@ -35,10 +35,13 @@
 </body>
 </html>
 
-
+//dom.js
 
 console.log(document.getElementById('header-title'));
 var headerTitle= document.getElementById('header-title');
 console.log(headerTitle);
 headerTitle.textContent='Hello';
 headerTitle.style.borderBottom='solid 3px #000';
+console.log(document.getElementsByClassName('title'));
+document.getElementById("add-items").style.fontWeight="bold";
+document.getElementById("add-items").style.color="green";
